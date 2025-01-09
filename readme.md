@@ -6,10 +6,10 @@ The algorithm takes two inputs: a set of digits `{1, 2, 3, 4, 5}` and a number (
 ## Approach
 
 ### 1. **Perfect Roots**
-The algorithm checks if the input number is a perfect root for any integer in the set `{1, 2, 3, 4, 5}`. A number \( N \) is a perfect \( k \)-th root if:
+The algorithm checks if the input number is a perfect root for any integer in the set `{1, 2, 3, 4, 5}`. A number N is a perfect  k-th root if:
 
 \[
-N = x^k \quad \text{for some} \quad x \in \{1, 2, 3, 4, 5\}, \, k \in \mathbb{N}
+N = x^k for some  x  {1, 2, 3, 4, 5} 
 \]
 
 For example, for `2025`, we compute potential roots (e.g., \( \sqrt{2025} = 45 \)) and check if the root is an integer.
